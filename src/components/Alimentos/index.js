@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Table } from "./Table";
 import axios from "axios";
 
-const URL = `/api/food`;
+const URL = `https://foodserversw.herokuapp.com/api/food`;
 
 export default function Index() {
   const [data, setData] = useState([]);

@@ -10,7 +10,7 @@ import Hora from '../AñadirAlimento/CampoHorario/index';
 import Categoria from '../AñadirAlimento/CampoCategoria/index';
 import './style.css'
 
-const URL = `/api/food`;
+const URL = `https://foodserversw.herokuapp.com/api/food`;
 const MSG_ERROR_NAME = 'El nombre del alimento ya se encuentra registrado';
 
 var msg = 'Por favor rellena el formulario correctamente.';

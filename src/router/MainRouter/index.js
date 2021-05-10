@@ -9,24 +9,24 @@ import './style.css'
 function MainRouter() {
     return (
         <Router>
-            <Route path='/ui' component={Header} />
+            <Route path='/' component={Header} />
             <Switch>
-                <Route path='/ui/inicio'>
+                <Route path='/inicio'>
                     <div className='container-image inicio'>
                         <Inicio />
                     </div>
                 </Route>
-                <Route path='/ui/alimentos'>
+                <Route path='/alimentos'>
                     <div className='container-image alimentos'>
                         <Alimentos />
                     </div>
                 </Route>
-                <Route path='/ui/añadir'>
+                <Route path='/añadir'>
                     <div className='container-image anadir-alimento'>
                         <AñadirAlimento />
                     </div>
                 </Route>
-                <Redirect from='' to='/ui/inicio' exact />
+                <Redirect from='' to='/inicio' exact />
             </Switch>
         </Router >
     );
