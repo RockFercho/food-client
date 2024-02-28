@@ -1,0 +1,68 @@
+.contenedorRes{
+    background-image: url(../../images/fondo3.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-block-size: 100%;
+    color: #000000;
+}
+.resultado{
+    color: #000000;
+    display: block;
+}
+.resultado h1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.card{
+    width: 130px;
+    height: 152px;
+    margin: auto auto;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    padding-top: 10px;
+}
+
+.contenedor{
+    padding: 15px;
+    align-content: center;
+}
+
+.card-img-top{
+    padding-top: 10px;
+}
+
+.card-body{
+    
+    padding: 0.4rem !important;
+}
+
+.card-title{
+    color: #000000;
+    
+}
+
+.row{
+    justify-content: center;
+    width: auto;
+}
+
+.link{
+    color: #000000;
+    text-decoration-color: transparent !important; 
+}
+
+.contMensaje{
+    display: flex;
+    min-height: 50vh;
+}
+
+.mensaje{
+    color: #801818;
+    /* background-color: rgba(235, 227, 226, 0.4); */
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

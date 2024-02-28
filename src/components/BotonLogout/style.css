@@ -1,0 +1,18 @@
+.botonlogout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logoutImage {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 550px) {
+  .labellogout {
+    display: none;
+  }
+}

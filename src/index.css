@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#main{
+  font-family: "Comic Neue",cursive;
+}
