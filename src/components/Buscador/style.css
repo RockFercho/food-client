@@ -1,0 +1,74 @@
+@media screen and (orientation: portrait) {
+  .input-field {
+    width: 60vw !important;
+    outline: none;
+    border: 1px solid white !important;
+    border-radius: 0px 3px 3px 0px !important;
+  }
+  .input-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 5px;
+  }
+
+  .icon {
+    font-size: 20px;
+    padding: 0.3em;
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    margin-right: -5px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .input-field {
+    width: 30vw !important;
+    outline: none;
+    border: 1px solid white !important;
+    border-radius: 0px 3px 3px 0px !important;
+  }
+  .input-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 5px;
+  }
+
+  .icon {
+    font-size: 20px;
+    padding: 0.3em;
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    margin-right: -2px;
+  }
+}
+
+.error-icon {
+  border-left: 3px solid red  !important;
+  border-top: 3px solid red !important;
+  border-bottom: 3px solid red !important;
+}
+
+.error-input-container {
+  border-right: 3px solid red !important;
+  border-top: 3px solid red !important;
+  border-bottom: 3px solid red !important;
+  margin-left: -1px;
+}
+
+.error {
+  color: red;
+  font-weight: normal !important;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
